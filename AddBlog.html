@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="http://kit.fontawesome.com/195a3616c4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	 <div class="container">
+	  <form action="/add-blog" method="POST">
+	  	<div class="blog">
+	  		<textarea  name="blog" id="" cols="40" rows="8" placeholder="Blog content"></textarea>
+	  	</div> 
+	  	<div class="title">
+        <input  name="title" type="text" placeholder="Title">
+        </div>
+        <div class="author">
+        <input name="author" type="text" placeholder="Author name">
+        </div>
+        <div class="keyword">
+        <input  name="keyword" type="text" placeholder="Keyword">
+        </div>
+        
+        <div class="submit">
+        <button type="button" class="btn btn-success">Publish</button>
+        </div>
+    </form>
+    </div>
+ </body>
+</html>
